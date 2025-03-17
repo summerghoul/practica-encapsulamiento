@@ -21,4 +21,4 @@ class CuentaBancaria:
     # getter (obtener informacion privada a travéz de un metodo publico)
 
     def obtener_saldo(self):
-        print(f"Su saldo es de ${self.__saldo}")
+        return f"Su saldo es de ${self.__saldo}"
