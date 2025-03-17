@@ -15,7 +15,7 @@ cuenta = CuentaBancaria("Miguel", 1500)
 print(cuenta.obtener_saldo())
 
 # depositar 500 y obtener saldo
-cuenta.depositar(-600)
+cuenta.depositar(500)
 print(cuenta.obtener_saldo())
 
 # retirar 2000 y obtener saldo
